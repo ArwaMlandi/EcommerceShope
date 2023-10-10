@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+  font-family: 'Roboto Slab', serif;
+ 
+}
+
+.blur{
+    background-color: rgba(89, 209, 119, 0.66);
+    backdrop-filter: blur(0.2px);
+    height: 100%;
+    width: 100%;
+    
+  }
