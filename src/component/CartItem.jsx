@@ -86,7 +86,7 @@ const CartItem = () => {
       >
         Reset Cart
       </button>
-      <Link to="/">
+      <Link to="/EcommerceShope/">
         <button className="mt-8 text-red-600 hover:text-black duration-300 flex items-center gap-1">
           <span>
             <HiOutlineArrowLeft />

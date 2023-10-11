@@ -13,7 +13,7 @@ const Card = ({ productDetailes }) => {
     return String(_id).toLowerCase().split(" ").join("")
   }
   const handleToDetailes =()=>{
-    navigate( `/ProductOne/${rootId}`,{
+    navigate( `/EcommerceShope/ProductOne/${rootId}`,{
       state:{
         item:productDetailes,
       }

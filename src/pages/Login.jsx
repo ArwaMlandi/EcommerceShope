@@ -23,7 +23,7 @@ const Login = () => {
         image:user.photoURL,
     }));
     setTimeout(() => {
-      navigate("/")
+      navigate("/EcommerceShope/")
     }, 1500);
   }).catch((error) => {
     // Handle Errors here.
