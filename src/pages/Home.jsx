@@ -3,8 +3,7 @@ import { useEffect } from 'react'
 import {useLoaderData} from 'react-router-dom'
 import Prouducts from '../component/Prouducts'
 import Slider from '../component/Slider'
-import axios from 'axios';
-import { productsData } from '../api/Api';
+
 const Home = () => {
   const [product,setProduct]= useState([])
   const data=useLoaderData();

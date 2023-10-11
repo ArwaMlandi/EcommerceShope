@@ -1,5 +1,5 @@
 import React, { useEffect ,useState } from 'react'
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { toast } from 'react-toastify';
 import CartItem from '../component/CartItem';
 //import pic from '../images/bg-cart.jpg'

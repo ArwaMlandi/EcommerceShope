@@ -23,25 +23,25 @@ const Layout=()=>{
 
 const router=createBrowserRouter([
   {
-    path:"/",
+    path:"/EcommerceShope/",
     element:<Layout/>,
     children:[
       {
-        path:"/",
+        path:"/EcommerceShope/",
         element:<Home/>,
         loader:productsData ,
       },
       {
-        path:"/productOne/:id",
+        path:"/EcommerceShope/productOne/:id",
         element:<ProductOne/>
       },
      
       {
-        path:"/cart",
+        path:"/EcommerceShope/cart",
         element:<Cart/>,
       },
       {
-        path:"/login",
+        path:"/EcommerceShope/login",
         element:<Login/>
       },
 
