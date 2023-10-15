@@ -1,11 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
-import {useLocation} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 import {MdOutlineStar} from 'react-icons/md'
 import { useDispatch } from 'react-redux';
 import { addtocart } from '../redux/shopSlice';
 import { ToastContainer, toast } from 'react-toastify';
+import { HiOutlineArrowLeft } from 'react-icons/hi';
 const ProductOne = () => {
   const dispatsh= useDispatch()
   const location= useLocation();
@@ -65,10 +66,19 @@ const ProductOne = () => {
           description:detailes.description
         })) & toast.success( `${detailes.title} is added`)
       }
-         className="bg-gray-500 text-white py-3 px-6 active:bg-red-500">Add to Cart</button>
+         className="bg-gray-500 text-white py-3 px-6 hover:bg-red-500">Add to Cart</button>
       </div>
       <p className="text-base text-gray-500">Category: <span className="text-base text-red-500">{detailes.category}</span></p>
+      <Link to="/EcommerceShope/">
+      <button className="mt-8 text-red-600 hover:text-black duration-300 flex items-center gap-1">
+          <span>
+            <HiOutlineArrowLeft />
+          </span>
+          Go Shopping
+        </button>
+        </Link>
     </div>
+   
     <ToastContainer
       position='top-left'
       autoClose={2000}
