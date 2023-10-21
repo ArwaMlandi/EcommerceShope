@@ -11,11 +11,11 @@ const Home = () => {
   
   useEffect(()=>{
     setProduct(data);
-    {console.log(data)}
+    
   },[data])
   return (
     <div className='bg bg-amber-200'>
-      {console.log(data)}
+     
       <Slider/>
       <Prouducts product={product}/>
         

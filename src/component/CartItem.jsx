@@ -10,8 +10,7 @@ import {
 } from "../redux/shopSlice";
 import { toast, ToastContainer } from "react-toastify";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import { useState } from "react";
+
 const CartItem = () => {
 
   const dispatch = useDispatch();

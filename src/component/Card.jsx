@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addtocart } from "../redux/shopSlice";
 import { ToastContainer, toast } from 'react-toastify';
-import {  resetCart } from '../redux/shopSlice'
+
 const Card = ({ productDetailes }) => {
   const dispatsh = useDispatch()
   const navigate= useNavigate()

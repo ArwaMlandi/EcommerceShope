@@ -1,7 +1,7 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
-import { getAuth,  signInWithPopup,signOut, GoogleAuthProvider } from "firebase/auth";
+import { getAuth,  signInWithPopup,signOut, GoogleAuthProvider,signInWithEmailAndPassword } from "firebase/auth";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../redux/shopSlice";
@@ -39,6 +39,9 @@ const Login = () => {
 
     }
 
+
+
+
     const handleSignout =()=>{
         signOut(auth).then(() => {
             // Sign-out successful.
@@ -55,17 +58,13 @@ const Login = () => {
         <div onClick={handleLoginGoogle} className="text-base w-60 h-12 tracking-wide border-[1px] border-gray-600 ronded-md flex items-center justify-center gap-2 hover:border-blue-600 cursor-pointer duration-300">
         <FcGoogle size={30} />
         <span className="text-gray-600 hover:text-blue-600">Sign in with Google</span>
+        
         </div>
+       
         <button onClick={handleSignout} className='bg-black text-white text-base py-3 px-8 tracking-wide rounded-md hover:bg-gray-900 duration-300'> Sign out</button>
       </div>
-
-      <div className=" w-full flex  items-center justify-center gap-10">
-        <div className="text-base w-60 h-12 tracking-wide border-[1px] border-gray-600 ronded-md flex items-center justify-center gap-2 hover:border-blue-600 cursor-pointer duration-300">
-        <FaGithub size={30} />
-        <span className="text-gray-600 hover:text-blue-600">Sign in with Github</span>
-        </div>
-        <button className='bg-black text-white text-base py-3 px-8 tracking-wide rounded-md hover:bg-gray-900 duration-300'> Sign out</button>
-      </div>
+      <span>If you are inside Syria, please use VPN to sign in</span>
+      
     </div>
   );
 };

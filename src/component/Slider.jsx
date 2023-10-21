@@ -1,7 +1,7 @@
 import React from 'react'
 import s1 from '../images/Gr.svg'
-import s2 from '../images/shoes.svg'
-import s3 from '../images/skin.svg'
+import s2 from '../images/Group 4.svg'
+import s3 from '../images/Group 5.svg'
 import {BsChevronCompactLeft,BsChevronCompactRight} from 'react-icons/bs'
 import {Swiper,SwiperSlide} from 'swiper/react'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';

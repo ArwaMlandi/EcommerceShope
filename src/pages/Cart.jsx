@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import StripeCheckout from 'react-stripe-checkout';
 import { toast } from 'react-toastify';
 import CartItem from '../component/CartItem';
-//import pic from '../images/bg-cart.jpg'
+
 const Cart = () => {
   const [totalPrice,setTotalPrice]=useState();
   const [payNow,setPayNow]=useState();
