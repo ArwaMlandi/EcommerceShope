@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/EcommerceShope/static/css/main.4804a9f7.css",
-    "main.js": "/EcommerceShope/static/js/main.c5a0b87e.js",
+    "main.js": "/EcommerceShope/static/js/main.b2034c47.js",
     "static/js/787.6a1ad479.chunk.js": "/EcommerceShope/static/js/787.6a1ad479.chunk.js",
-    "static/media/skin.svg": "/EcommerceShope/static/media/skin.0e8cf5c22300bf2bd45b457c1fb98e23.svg",
-    "static/media/Group 1.svg": "/EcommerceShope/static/media/Group 1.f5da13391e685b438345785b2405eaee.svg",
-    "static/media/shoes.svg": "/EcommerceShope/static/media/shoes.a549a9209246eb66284bf2d529993ad8.svg",
+    "static/media/Group 4.svg": "/EcommerceShope/static/media/Group 4.4f0e4c41105905b893ad5e9db5a6c8fb.svg",
+    "static/media/Group 5.svg": "/EcommerceShope/static/media/Group 5.8a6b13308bc3dc11a6312e99c6648601.svg",
     "static/media/Gr.svg": "/EcommerceShope/static/media/Gr.df3415aad5c078c5e6d68da9a5ca6b0a.svg",
     "static/media/logoevery.png": "/EcommerceShope/static/media/logoevery.e64f37a3ee319bcf5214.png",
     "static/media/login.jpg": "/EcommerceShope/static/media/login.7862090f403d80b917ea.jpg",
     "static/media/pay.png": "/EcommerceShope/static/media/pay.e91ceb70289bfe7bc7d1.png",
     "index.html": "/EcommerceShope/index.html",
     "main.4804a9f7.css.map": "/EcommerceShope/static/css/main.4804a9f7.css.map",
-    "main.c5a0b87e.js.map": "/EcommerceShope/static/js/main.c5a0b87e.js.map",
+    "main.b2034c47.js.map": "/EcommerceShope/static/js/main.b2034c47.js.map",
     "787.6a1ad479.chunk.js.map": "/EcommerceShope/static/js/787.6a1ad479.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4804a9f7.css",
-    "static/js/main.c5a0b87e.js"
+    "static/js/main.b2034c47.js"
   ]
 }
